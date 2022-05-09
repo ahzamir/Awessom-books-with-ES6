@@ -18,7 +18,11 @@
   },
   "homepage": "https://github.com/ahzamir/Awessom-books-with-ES6#readme",
   "devDependencies": {
-    "@types/luxon": "^2.3.2"
+    "@types/luxon": "^2.3.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.26.0"
   },
   "dependencies": {
     "full-icu": "^1.4.0"
