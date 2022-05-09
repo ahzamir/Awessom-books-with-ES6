@@ -10,4 +10,12 @@ export class Books {
     });
   }
 
+  remove = (title) => {
+    this.books = this.books.filter((book) => {
+      const newTitleFromArray = book.title.replace(/\s+/g, '');
+      return (newTitleFromArray !== title);
+    });
+  }
+
+  getAll = () => this.books
 }
