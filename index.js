@@ -1,3 +1,4 @@
+import manageDate from './modules/addDate.js';
 import Books from './modules/Books.js';
 
 const library = new Books(JSON.parse(localStorage.getItem('books')));
@@ -47,3 +48,5 @@ window.addEventListener('DOMContentLoaded', () => {
   document.getElementById('top-books').addEventListener('click', booksListAction);
   displayBooks(library.getAll());
 });
+
+manageDate();

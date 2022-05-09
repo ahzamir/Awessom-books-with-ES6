@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/ahzamir/Awessom-books-with-ES6/issues"
   },
-  "homepage": "https://github.com/ahzamir/Awessom-books-with-ES6#readme"
+  "homepage": "https://github.com/ahzamir/Awessom-books-with-ES6#readme",
+  "devDependencies": {
+    "@types/luxon": "^2.3.2"
+  },
+  "dependencies": {
+    "full-icu": "^1.4.0"
+  }
 }
