@@ -1,4 +1,4 @@
-export default class Books {
+class Books {
   constructor(books) {
     this.books = books || [];
   }
@@ -19,3 +19,4 @@ export default class Books {
 
   getAll = () => this.books
 }
+export default Books;
