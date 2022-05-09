@@ -1,6 +1,6 @@
 import manageDate from './modules/addDate.js';
 import Books from './modules/Books.js';
-
+import navMenu from './modules/nave-menu.js';
 const library = new Books(JSON.parse(localStorage.getItem('books')));
 window.addEventListener('DOMContentLoaded', () => {
   const awesomeBooks = document.getElementById('awesome-books');
@@ -50,3 +50,4 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 manageDate();
+navMenu();
