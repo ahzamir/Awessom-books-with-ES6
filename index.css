@@ -23,7 +23,8 @@ body {
   color: #fff;
 }
 
-#navbar, #contact{
+#navbar,
+#contact {
   flex: 1 1 0%;
   background-color: var(--darker);
   padding: 1rem;
@@ -32,6 +33,15 @@ body {
   border-radius: 1rem;
   width: 88%;
   margin: 12px auto 0 auto;
+}
+
+header h1,
+.add-new h2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: var(--gray);
+  margin-bottom: 1rem;
+  text-align: center;
 }
 
 #navbar h1 {
@@ -56,6 +66,12 @@ button {
   background: none;
 }
 
+.nav-list li {
+  border-right: 2px solid #333;
+  margin-right: 4px;
+  padding-right: 4px;
+}
+
 #navbar ul li,
 #navbar ul li a {
   display: flex;
@@ -78,15 +94,6 @@ button {
   text-align: center;
   margin-top: 24px;
   margin-bottom: 12px;
-}
-
-header h1,
-.add-new h2 {
-  font-size: 2.5rem;
-  font-weight: 300;
-  color: var(--gray);
-  margin-bottom: 1rem;
-  text-align: center;
 }
 
 .add-new h2 {
@@ -140,7 +147,7 @@ header h1,
   opacity: 0.6;
 }
 
-.added-books{
+.added-books {
   color: var(--pink);
   border: 1px solid var(--purple);
   font-size: 1rem;
@@ -232,10 +239,4 @@ header h1,
 .main-container {
   width: 50%;
   margin: 0 auto;
-}
-
-.nav-list li {
-  border-right: 2px solid #333;
-  margin-right: 4px;
-  padding-right: 4px;
 }
