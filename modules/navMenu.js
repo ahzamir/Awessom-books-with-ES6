@@ -18,7 +18,6 @@ const navMenu = () => {
         list.classList.add('hidden');
         addNew.classList.add('hidden');
         contact.classList.remove('hidden');
-        manageDate(datePara);
       }
     });
   }
